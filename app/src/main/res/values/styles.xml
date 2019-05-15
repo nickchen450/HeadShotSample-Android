@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="dotStyle">@style/dotTheme</item>-->
+        <!--<item name="android:windowBackground">@color/supportColor3</item>-->
+        <item name="android:textViewStyle">@style/AppTheme.NoActionBar.TextViewStyle</item>
+    </style>
+
+    <!--<style name="dotTheme" parent="DefaultDotTheme">-->
+        <!--<item name="defaultDotColor">@color/dotOff</item>-->
+        <!--<item name="selectDotColor">@color/dotOn</item>-->
+        <!--<item name="defaultDotAlpha">255</item>-->
+        <!--<item name="dotSize">10</item>-->
+        <!--<item name="dotSpace">4</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar.TextViewStyle">
+        <item name="android:textColor">#131414</item>
+    </style>
+
+</resources>
